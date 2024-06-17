@@ -1,9 +1,16 @@
-# projeto scraping aovivo
+# projeto scraping ao vivo
 
-Neste projeto foi feito um web scraping utilizando o Scrapy para extrair dados do Mercado Livre, especificamente tênis de corrida masculino. Foi utilizada a [url]("https://lista.mercadolivre.com.br/tenis-corrida-masculino") para realizar a raspagem.
+Nesse projeto foi feito uma ETL para monitoramento de preços utilizando python e a biblioteca scrapy
+
+Para o web scraping foi utilizada a biblioteca Scrapy para extrair dados do Mercado Livre, especificamente tênis de corrida masculino. Foi utilizada a [url]("https://lista.mercadolivre.com.br/tenis-corrida-masculino") para realizar a raspagem.
+
+Em seguida foi feita a transformação dos dados e inserida no banco SQLite.
+
+E por ultimo foi feita um dashboard usando o stremlit.
+
+## Gerenciamento de dependências
 
 Eu gosto de utilizar o Poetry como gerenciador de ambiente. Abaixo, mostro os passos para instalar o Poetry, ativar o ambiente e em seguida como utilizar o projeto.
-
 
 Para instalar o pix e o poetry
 ```bash
