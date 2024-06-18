@@ -1,3 +1,6 @@
+<div align='center'>
+<img src="https://github.com/douglasaturnino/scraping/assets/95532957/b75a4281-9f3d-4537-9ccf-f3726acf8e25"  width=700px/>
+</div>
 # projeto scraping ao vivo
 
 Nesse projeto foi feito uma ETL para monitoramento de preços utilizando python e a biblioteca scrapy
