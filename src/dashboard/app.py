@@ -1,9 +1,14 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+import os
+
+path = os.getcwd()
+
+path_db = os.path.join(path, "data", "quotes.db")
 
 # Conectar ao banco de dados SQLite
-conn = sqlite3.connect("../data/quotes.db")
+conn = sqlite3.connect(path_db)
 
 # Carregar os dados da tabela 'mercadolivre_items' em um DataFrame pandas
 df = pd.read_sql_query("SELECT * FROM mercadolivre_items", conn)
