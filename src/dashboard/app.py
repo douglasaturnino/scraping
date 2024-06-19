@@ -3,6 +3,8 @@ import pandas as pd
 import sqlite3
 import os
 
+st.set_page_config(page_title="monitoramento de preços", layout="wide")
+
 path = os.getcwd()
 
 path_db = os.path.join(path, "data", "quotes.db")
