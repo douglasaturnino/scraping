@@ -10,7 +10,9 @@ Para o web scraping foi utilizada a biblioteca Scrapy para extrair dados do Merc
 
 Em seguida foi feita a transformação dos dados e inserida no banco SQLite.
 
-E por ultimo foi feita um dashboard usando o stremlit.
+E por ultimo foi feita um dashboard usando o streamlit.
+
+Você pode acessar o resultado no dashboard no [streamlit](https://etl-para-monitoramento-de-precos.streamlit.app/)
 
 ## Gerenciamento de dependências
 
@@ -38,10 +40,16 @@ poetry shell
 ```
 ## Utilização do Projeto
 
+Primeiramente é preciso entrar dentro do diretorio src utilizando o comando
+
+```bash
+cd src
+```
+
 Para rodar o web scraping
 
 ```bash
-scrapy crawl mercadolivre -o ../../data/data.jsonl
+scrapy crawl mercadolivre -o ../data/data.jsonl
 ```
 
 Para rodar o PANDAS tem que fazer isso dentro da pasta SRC
